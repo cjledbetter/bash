@@ -1,0 +1,39 @@
+Script started on 2019-04-08 20:10:12-0400
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ touch forrest_gump
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls
+forrest_gump  random  sample  test  typescript  typescriptDeleteFiles
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ mv forrest_gump green_mile
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls
+green_mile  random  sample  test  typescript  typescriptDeleteFiles
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ rm green_mile 
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls
+random  sample  test  typescript  typescriptDeleteFiles
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ mkdir new
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls
+[0m[01;34mnew[0m  random  sample  test  typescript  typescriptDeleteFiles
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ rm new
+rm: cannot remove 'new': Is a directory
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ rm [K[K[Krm -r new/
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls
+random  sample  test  typescript  typescriptDeleteFiles
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ mak[K[Kkdir new
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ rmdir new[K[K[K[K[K[K[K[K[Kls
+[0m[01;34mnew[0m  random  sample  test  typescript  typescriptDeleteFiles
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ rmdir new/
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls
+random  sample  test  typescript  typescriptDeleteFiles
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ mkdir new
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cd new/
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ touch sample
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ cd ..
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls
+[0m[01;34mnew[0m  random  sample  test  typescript  typescriptDeleteFiles
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cd[K[Krm[K[Krmdir new/
+rmdir: failed to remove 'new/': Directory not empty
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ rm 0[K0[K-r new/
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls
+random  sample  test  typescript  typescriptDeleteFiles
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ exit
+exit
+
+Script done on 2019-04-08 20:14:41-0400

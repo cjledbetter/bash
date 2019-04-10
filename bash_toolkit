@@ -1,0 +1,12 @@
+BASH TOOLKIT
+
+COMMANDS TO REPLACE STRING BEFORE DELIMITER:
+
+cut -d $ -f 2 file [!1428]
+
+REMOVE LEADING WHITE SPACE:
+
+sed 's/^[\t ]*//g' < file-in.txt > file-out.txt
+
+
+

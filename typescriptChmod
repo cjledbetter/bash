@@ -1,0 +1,31 @@
+Script started on 2019-04-09 19:24:02-0400
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls
+bash_toolkit  random  typescript           typescriptDeleteFiles
+music         sample  typescriptChmod      typescriptFilePerm
+[0m[01;34mnew[0m           test    typescriptCopyFiles  typescriptLS
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls -l
+total 128
+-rw-rw-r-- 1 chris chris  168 Apr  9 10:36 bash_toolkit
+-rw-r--r-- 1 chris chris    0 Apr  8 20:16 music
+drwxr-xr-x 2 chris chris 4096 Apr  9 19:17 [0m[01;34mnew[0m
+-rw-r--r-- 1 chris chris   23 Apr  8 20:07 random
+-rw-r--r-- 1 chris chris   44 Apr  8 20:08 sample
+-rw-r--r-- 1 chris chris   21 Apr  8 20:07 test
+-rw-r--r-- 1 chris chris 1332 Apr  8 20:09 typescript
+-rw-r--r-- 1 chris chris    0 Apr  9 19:24 typescriptChmod
+-rw-r--r-- 1 chris chris 3985 Apr  8 20:27 typescriptCopyFiles
+-rw-r--r-- 1 chris chris 3962 Apr  8 20:14 typescriptDeleteFiles
+-rw-r--r-- 1 chris chris 1073 Apr  9 19:22 typescriptFilePerm
+-rw-r--r-- 1 chris chris 3801 Apr  8 20:36 typescriptLS
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ chmod 777test[K[K[K[K test
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls -l test
+-rwxrwxrwx 1 chris chris 21 Apr  8 20:07 [0m[01;32mtest[0m
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ chmod 444 test
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls -l test
+-r--r--r-- 1 chris chris 21 Apr  8 20:07 test
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ uname -a
+Linux chris-Lenovo-G50-70 4.15.0-47-generic #50-Ubuntu SMP Wed Mar 13 10:44:52 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ exit
+exit
+
+Script done on 2019-04-09 19:30:15-0400

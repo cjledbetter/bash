@@ -1,0 +1,19 @@
+$
+:[01;34m~/Documents/bash[00m$ cat > ts[Kest
+$
+:[01;34m~/Documents/bash[00m$ cat < tst[K[Kest
+$
+:[01;34m~/Documents/bash[00m$ cat test
+$
+:[01;34m~/Documents/bash[00m$ cat > random
+$
+:[01;34m~/Documents/bash[00m$ cat < random
+$
+:[01;34m~/Documents/bash[00m$ cat random test <[K> sample
+:[01;34m~/Documents/bash[00m$ cat sample
+$
+$
+:[01;34m~/Documents/bash[00m$ exit
+$
+$
+$

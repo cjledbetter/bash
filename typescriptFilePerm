@@ -1,0 +1,13 @@
+Script started on 2019-04-09 19:17:22-0400
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ tou[K[K[Kcd new
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ touch n[Ksample
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ sample ls -a[K[K[K[K[K[K[K[K[K[K[K[Kls -a am[K[Ksample
+sample
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ ls -l saamp[K[K[Kmple
+-rw-r--r-- 1 chris chris 0 Apr  9 19:17 sample
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ umak[Ksk
+0022
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ exit
+exit
+
+Script done on 2019-04-09 19:22:24-0400

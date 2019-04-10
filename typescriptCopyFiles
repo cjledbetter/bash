@@ -1,0 +1,43 @@
+Script started on 2019-04-08 20:16:16-0400
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ touch music
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ mkdir new
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls
+music  random  test        typescriptCopyFiles
+[0m[01;34mnew[0m    sample  typescript  typescriptDeleteFiles
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cp music /new
+cp: cannot create regular file '/new': Permission denied
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cp music new
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls
+music  random  test        typescriptCopyFiles
+[0m[01;34mnew[0m    sample  typescript  typescriptDeleteFiles
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cd new/
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ new[K[K[Kls n[K
+music
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ ln music muc[Ksic[K[K[K[K[Knwe[K[Kew_[K-music
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ ls
+music  new-music
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ c[Knano[K[K[K[Kcat ma[Kusic 
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ cat new-music 
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ cat <[K>> music 
+New text in both files.
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ cat music 
+New text in both files.
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ cat new-music 
+New text in both files.
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ ln -s music music_soft
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ ls
+music  [0m[01;36mmusic_soft[0m  new-music
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ rm music
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ cat new-music 
+New text in both files.
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ cat music_soft 
+cat: music_soft: No such file or directory
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ ls
+[0m[40;31;01mmusic_soft[0m  new-music
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ rm music_soft 
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ ls
+new-music
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash/new[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash/new[00m$ exit
+exit
+
+Script done on 2019-04-08 20:27:52-0400
