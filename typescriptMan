@@ -1,0 +1,204 @@
+Script started on 2019-04-10 17:50:17-0400
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ man cat
+[?1049h[22;0;0t[?1h=CAT(1)                           User Commands                          CAT(1)[m
+[m
+[1mNAME[0m[m
+       cat - concatenate files and print on the standard output[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcat[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Concatenate FILE(s) to standard output.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       [1m-A[0m, [1m--show-all[0m[m
+              equivalent to [1m-vET[0m[m
+[m
+       [1m-b[0m, [1m--number-nonblank[0m[m
+              number nonempty output lines, overrides [1m-n[0m[m
+[m
+       [1m-e[0m     equivalent to [1m-vE[0m[m
+[m
+       [1m-E[0m, [1m--show-ends[0m[m
+              display $ at end of each line[m
+[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m, [1m--number[0m[m
+[7m Manual page cat(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              number all output lines[m
+[7m Manual page cat(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--squeeze-blank[0m[m
+[7m Manual page cat(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              suppress repeated empty output lines[m
+[7m Manual page cat(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m     equivalent to [1m-vT[0m[m
+[7m Manual page cat(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-T[0m, [1m--show-tabs[0m[m
+[7m Manual page cat(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              display TAB characters as ^I[m
+[7m Manual page cat(1) line 12 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ banner I am in love withm[K my wo[Kife!
+
+Command 'banner' not found, but can be installed with:
+
+sudo apt install sysvbanner
+
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ suo[Kdo apt instll[K[Kall sysvbanner
+[sudo] password for chris: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libllvm6.0 libllvm6.0:i386 x11proto-dri2-dev x11proto-gl-dev
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  sysvbanner
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 6,128 B of archives.
+After this operation, 31.7 kB of additional disk space will be used.
+[33m0% [Working][0m[33m0% [Connecting to us.archive.ubuntu.com][0m[33m0% [Connecting to us.archive.ubuntu.com (91.189.91.26)][0m                                                       Get:1 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 sysvbanner amd64 1.0.15build1 [6,128 B]
+[33m                                                       53% [1 sysvbanner 4,064 B/6,128 B 66%][0m[33m                                      100% [Working][0m              Fetched 6,128 B in 1s (5,396 B/s)
+
+7[0;23r8[1ASelecting previously unselected package sysvbanner.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 276771 files and directories currently installed.)
+Preparing to unpack .../sysvbanner_1.0.15build1_amd64.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [ 17%][49m[39m [#########.................................................] 8Unpacking sysvbanner (1.0.15build1) ...
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [###################.......................................] 87[24;0f[42m[30mProgress: [ 50%][49m[39m [#############################.............................] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Setting up sysvbanner (1.0.15build1) ...
+7[24;0f[42m[30mProgress: [ 67%][49m[39m [######################################....................] 87[24;0f[42m[30mProgress: [ 83%][49m[39m [################################################..........] 8
+7[0;24r8[1A[J]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ sudo apt install sysvbannerbanner I am in love with my wife!
+  ###
+   #
+   #
+   #
+   #
+   #
+  ###
+
+
+   ##    #    #
+  #  #   ##  ##
+ #    #  # ## #
+ ######  #    #
+ #    #  #    #
+ #    #  #    #
+
+
+    #    #    #
+    #    ##   #
+    #    # #  #
+    #    #  # #
+    #    #   ##
+    #    #    #
+
+
+ #        ####   #    #  ######
+ #       #    #  #    #  #
+ #       #    #  #    #  #####
+ #       #    #  #    #  #
+ #       #    #   #  #   #
+ ######   ####     ##    ######
+
+
+ #    #     #     #####  #    #
+ #    #     #       #    #    #
+ #    #     #       #    ######
+ # ## #     #       #    #    #
+ ##  ##     #       #    #    #
+ #    #     #       #    #    #
+
+
+ #    #   #   #
+ ##  ##    # #
+ # ## #     #
+ #    #     #
+ #    #     #
+ #    #     #
+
+                                  ###
+ #    #     #    ######  ######   ###
+ #    #     #    #       #        ###
+ #    #     #    #####   #####     #
+ # ## #     #    #       #
+ ##  ##     #    #       #        ###
+ #    #     #    #       ######   ###
+
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ [K]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ [K]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ banner "Helo[Klo [K, World!"
+#     #                                                 #     #
+#     #  ######  #       #        ####                  #  #  #   ####   #####
+#     #  #       #       #       #    #                 #  #  #  #    #  #    #
+#######  #####   #       #       #    #   ###           #  #  #  #    #  #    #
+#     #  #       #       #       #    #   ###           #  #  #  #    #  #####
+#     #  #       #       #       #    #    #            #  #  #  #    #  #   #
+#     #  ######  ######  ######   ####    #              ## ##    ####   #    #
+
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ [K]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ [K]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ touch lli[K[Kipsum
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ nao[Kno lipsum 
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;39H(B[0;7m 0 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                        lipsum                                  [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[5dLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae ante sod$[7;1HMauris semper lacinia nisi nec consequat. Integer sit amet consequat sem. Aenea$[9;1HVestibulum in maximus erat, ac blandit libero. Vivamus cursus risus ac tellus f$[11;1HNullam ac porta nulla. Maecenas a ex iaculis ipsum tristique gravida id id dolo$[13;1H$ magna, bibendum ornare metus. Cras et tristique lorem, at suscipit arcu.[22d[K[13;76H[?12l[?25h[?25lDuis eu lacus ipsum. Integer eu dolor sed orci euismod suscipit. Quisque accums$[12;1H[?12l[?25h[?25l[A$met orci bibendum, ut sagittis odio accumsan.[K[?12l[?25h[?25lNullam ac porta nulla. Maecenas a ex iaculis ipsum tristique gravida id id dolo$[10;1H[?12l[?25h[?25l[A$c turpis tincidunt, at interdum eros fermentum. Pellentesque purus libero, pla[?12l[?25h[?25lVestibulum in maximus erat, ac blandit libero. Vivamus cursus risus ac tellus f[A[?12l[?25h[?25l[A$tristique mauris quis consequat cursus. Aenean nec blandit leo.[K[?12l[?25h[?25lMauris semper lacinia nisi nec consequat. Integer sit amet consequat sem. Aenea$[6;1H[?12l[?25h[?25l[A$ commodo diam fermentum ornare maximus. Nam ac maximus urna.[K[?12l[?25h[?25lLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae ante sod$[4;1H[?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d$ commodo diam fermentum ornare maximus. Nam ac maximus urna.[K[?12l[?25h[?25lLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae ante sod$[6;1H[?12l[?25h[?25l[7d$tristique mauris quis consequat cursus. Aenean nec blandit leo.[K[?12l[?25h[?25lMauris semper lacinia nisi nec consequat. Integer sit amet consequat sem. Aenea$[8;1H[?12l[?25h[?25l[9d$c turpis tincidunt, at interdum eros fermentum. Pellentesque purus libero, pla[?12l[?25h[?25lVestibulum in maximus erat, ac blandit libero. Vivamus cursus risus ac tellus f[10d[?12l[?25h[?25l[11d$met orci bibendum, ut sagittis odio accumsan.[K[?12l[?25h[?25lNullam ac porta nulla. Maecenas a ex iaculis ipsum tristique gravida id id dolo$[12;1H[?12l[?25h[?25l[13d$ magna, bibendum ornare metus. Cras et tristique lorem, at suscipit arcu.[K [?12l[?25h[?25lDuis eu lacus ipsum. Integer eu dolor sed orci euismod suscipit. Quisque accums$[14;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A$ magna, bibendum ornare metus. Cras et tristique lorem, at suscipit arcu.[K [?12l[?25h[?25lDuis eu lacus ipsum. Integer eu dolor sed orci euismod suscipit. Quisque accums$[12;1H[?12l[?25h[?25l[A$met orci bibendum, ut sagittis odio accumsan.[K[?12l[?25h[?25lNullam ac porta nulla. Maecenas a ex iaculis ipsum tristique gravida id id dolo$[10;1H[?12l[?25h[?25l[A$c turpis tincidunt, at interdum eros fermentum. Pellentesque purus libero, pla[?12l[?25h[?25lVestibulum in maximus erat, ac blandit libero. Vivamus cursus risus ac tellus f[A[?12l[?25h[?25l[A$tristique mauris quis consequat cursus. Aenean nec blandit leo.[K[?12l[?25h[?25lMauris semper lacinia nisi nec consequat. Integer sit amet consequat sem. Aenea$[6;1H[?12l[?25h[?25l[A$ commodo diam fermentum ornare maximus. Nam ac maximus urna.[K[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l$ulla. Cras ornare turpis sed lorem rutrum, ut varius tellus iaculis. Nam commo$[5;79H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l$t mauris. Proin a tincidunt turpis. Mauris in rhoncus mi, non accumsan nulla. [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: lipsum                                                      [22;1H(B[m[22;27H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 11 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[5;58H[?12l[?25h[?25l[22;11H(B[0;7m[ line 3/12 (25%), col 418/566 (73%), char 419/2897 (14%) ](B[m[5;58H[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ compress -v liu[K[[Kpsum 
+
+Command 'compress' not found, but can be installed with:
+
+sudo apt install ncompress
+
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ sudo apt install ncompress
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libllvm6.0 libllvm6.0:i386 x11proto-dri2-dev x11proto-gl-dev
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  ncompress
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 20.2 kB of archives.
+After this operation, 53.2 kB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 ncompress amd64 4.2.4.4-20 [20.2 kB]
+[33m5% [1 ncompress 1,167 B/20.2 kB 6%][0m[33m                                   100% [Working][0m              Fetched 20.2 kB in 1s (39.8 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package ncompress.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 276777 files and directories currently installed.)
+Preparing to unpack .../ncompress_4.2.4.4-20_amd64.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [ 17%][49m[39m [#########.................................................] 8Unpacking ncompress (4.2.4.4-20) ...
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [###################.......................................] 87[24;0f[42m[30mProgress: [ 50%][49m[39m [#############################.............................] 8Setting up ncompress (4.2.4.4-20) ...
+7[24;0f[42m[30mProgress: [ 67%][49m[39m [######################################....................] 87[24;0f[42m[30mProgress: [ 83%][49m[39m [################################################..........] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+
+7[0;24r8[1A[J]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ compress -v lipsum 
+lipsum:  -- replaced with lipsum.Z Compression: 44.25%
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls
+animals       [0m[01;34mnew[0m      README.md   typescriptChmod        typescriptFilePerm
+bash_toolkit  out      sample      typescriptCopyFiles    typescriptLS
+jazzy         out2     sports      typescriptCut          typescriptMan
+[01;31mlipsum.Z[0m      players  test        typescriptDD           typescriptSort
+music         random   typescript  typescriptDeleteFiles  typescriptWC
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cat lipsum.Z
+
+0y#§LiàÌ©sÌ6AÌICD˜6eè° 1æ›9eÆĞÉXGE2	ÓÌ“ÆÍeØPt"J•qê”a‡b˜aÜŒ”ø†L6eæl4S¦Î™4a*¶	3gN‰eÈlló0)4;B”C3H7e‚Â<“Ò7 ¦–TYVfÎ‹Ç€PSg¸ ÛĞlòsÌYªİ€@)’¡Û4bÊÈy3¸ğá9yÇ0´êfãÙ4A’áèäİŠÅüª’pT‚¸{0õjÙåäŞX§bÇeNƒpS‡›«´‡{´(Gså—%†‰}vxñã[£²ÎÍY2åPœ}³µ0âûZ”fîšP&·´èº%K2u„º†Ma÷‰ i†YiläÆraŒ¡YœYg\4!b¹ŞN¯Éf¢¹EAö&C¼Ut^z˜dœzPi&Ó{ 8WGmpåĞbPÄ”	åX†Æ õE“5h$’m¨W’†.ôŸx ‡dn5ØTÃ©”Æp!‘Üi4%!Tl™4QEµõ›iuD…•` ˜…–Z'ÒqâA×]Ô‘‡\šáåŒı])›}ç˜\Xb5ÚTU]GA_9vÆ…=5AŒÒguŠå$qe\,½†’bv<ÔQ•uVZ°¢—†zE¥m
+–IdA"tĞTtl· 4M‘U—,¹&o,$ÙN”ZElvxYqÁRkÎ‘ÓNİ²B¯p5“´>Jäkù©ÒWçÚº§bs†4R‡ 05ã^}ı¬^¶é&ÛX$ÎñL­Öñ*O>•‘æšmÂ„TL¹1š‹l¨'Sd“yÆ–ooäX`Ó¥X mº¥I-ÑdEçEÙ"–øêd$€¦bÖ¯pšÉ±zâJ¦^bçñxoU©€ŞŠîAóM¥z’Eµ‘“M…jNf3Î©WôÑª¤“ «gh,YÙ€*	Õ~}rmt¿–e3—èg¸ TQÑ²ï‚F_n¹=™äÚõgD_†IÊãÒVå8äÑdN>Ê¢”W
+BoquÕ÷NÅÙkÎÆxLepüİ~ö7E_[>]ÕN¸ëî±‘ª‡H­µÄzçqx3P{˜¹6n_DxDiŒ¶¥qgd®ÏAoÔ-Zn´k«…‚š#e|iF»b­chéÕ”J:&6’øÁÓåVäi«xÓŠõ¶g‚°d=1JlìÆç€ 
+h Êõ0c†/Q°xXï>T7Ü'?Yÿ$@˜L†ƒò
+â 0®ğ%å\ €CIDV¶7lÇ1Ì…*Â¦¶0*2Ã_H"È*z-ù
+ˆ`Æjéæ*¨:Îs£!Ì\„iPqd“…Ô‹giÀá¦ÂĞ©«t!£‹ûh¾rá0]9\ÍUäH–š”‡!B	^Ú˜€yğmvÑ	hB”	G:‚J8§’‰Ä+™ÃŒ‚”m°BÂLşx“ñ0a—ÜXab†FÌ$£´“Àú„Drˆ<‘hµH¡$a`ÀŠèÄHKh O{Îà3	~«5îê—HHb>æ°8=ÑPG7¾°4Ñ1›<JR¬cB˜ÔÁÇÔ“(F‡ŸSç”	3#Ì¥5ÓÉ%¾;ê’—Ô!f¾ÇÏêäSrîæå˜2‚s<qªˆÇtDGµ!EÒyJ²dÃ®Ìl&(R#ByÌ	-İOğ+¢IÜeÍMÔœü+J=WrOÑıÑgzP„:DÂùtN]Œ¡—ÉÚbñ¸$©’gq®òv…ÍŞw*¹jD(i Éš3¦íJ”Qyƒ•gÂ„=”ÄJŠ¹L*Ÿ‚¨b€‰‡1à:ŞŠğ¼ÄN<³3ÒF½Øœ:˜¯b«cƒìÀ‚™)]Å«\ëeÒÔš™¡¤-=içN:Ê8‡­*b¯‚Ï…’>VKcÙH`
+ç®¿²Š±pÜÈoÎ³*/V„¢}Ã|’FEŠH5
+ÃLº¢§&îü”;£r™kĞ8Öjé¤ ué-^œÄu­ÚHE“xaa‹$4²bÚb¯¾á•_«ÈÑX8–&
+ ]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ zcat lipsum.Z 
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae ante sodales, feugiat massa sed, molestie dolor. Aenean eget leo mauris. Aliquam ac justo sem. Maecenas in dictum libero. Maecenas accumsan, enim sed consequat lobortis, turpis quam lobortis tortor, ut consequat nulla quam non arcu. Maecenas sapien nulla, mattis ac hendrerit quis, varius at mauris. Proin a tincidunt turpis. Mauris in rhoncus mi, non accumsan nulla. Cras ornare turpis sed lorem rutrum, ut varius tellus iaculis. Nam commodo diam fermentum ornare maximus. Nam ac maximus urna.
+
+Mauris semper lacinia nisi nec consequat. Integer sit amet consequat sem. Aenean rutrum ullamcorper facilisis. Mauris bibendum mauris sed massa pretium gravida. Morbi a sapien quis nulla sollicitudin volutpat. Aenean varius odio quam, nec ornare lorem mattis non. Sed lacinia posuere massa quis vestibulum. Pellentesque vel odio eu enim fermentum tristique. Aenean consectetur felis justo, nec lobortis lorem sollicitudin vitae. Integer eleifend tellus libero, eget commodo sapien ullamcorper in. Vivamus tristique mauris quis consequat cursus. Aenean nec blandit leo.
+
+Vestibulum in maximus erat, ac blandit libero. Vivamus cursus risus ac tellus faucibus rhoncus. Vestibulum luctus semper rutrum. Ut non enim a tortor maximus mattis. Fusce sed dignissim tortor. Quisque facilisis massa ut molestie ultrices. Sed non eleifend turpis. Suspendisse eleifend massa sed posuere hendrerit. Sed nisi tellus, tempor id pellentesque quis, venenatis quis tortor. Integer pretium ipsum nec euismod interdum. Fusce a massa eleifend, tempor orci at, dapibus arcu. Phasellus finibus ex nec turpis tincidunt, at interdum eros fermentum. Pellentesque purus libero, placerat eget bibendum nec, dictum in neque.
+
+Nullam ac porta nulla. Maecenas a ex iaculis ipsum tristique gravida id id dolor. Pellentesque vel porta dolor. Quisque sed diam et sem finibus aliquet. Donec commodo dignissim est, in sodales tellus. Cras nec velit non lorem eleifend efficitur nec at felis. Aliquam erat volutpat. Curabitur egestas nibh a augue dapibus, eu consectetur dolor pulvinar. Quisque dictum sodales nunc eu finibus. Nam vitae nunc eu ligula suscipit luctus. Pellentesque volutpat tempus pellentesque. Morbi elementum ipsum sit amet orci bibendum, ut sagittis odio accumsan.
+
+Duis eu lacus ipsum. Integer eu dolor sed orci euismod suscipit. Quisque accumsan turpis in nisl dictum, eget fringilla ligula tincidunt. Suspendisse potenti. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ultrices mattis arcu, vitae ultricies urna varius et. Aenean imperdiet vitae odio non sollicitudin. Praesent eros elit, semper eu ultricies id, convallis at dolor. Proin aliquet lobortis velit. In ac nisl ac sapien tristique posuere. Aliquam ac placerat magna, bibendum ornare metus. Cras et tristique lorem, at suscipit arcu. 
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ um[Kncompress lu[Kipsum.?[KZ
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls
+animals       [0m[01;34mnew[0m      README.md   typescriptChmod        typescriptFilePerm
+bash_toolkit  out      sample      typescriptCopyFiles    typescriptLS
+jazzy         out2     sports      typescriptCut          typescriptMan
+lipsum        players  test        typescriptDD           typescriptSort
+music         random   typescript  typescriptDeleteFiles  typescriptWC
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls -l jazzy
+-rw-r--r-- 1 chris chris 121 Apr  9 19:42 jazzy
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ exit
+exit
+
+Script done on 2019-04-10 18:03:22-0400

@@ -1,0 +1,87 @@
+Script started on 2019-04-10 15:55:34-0400
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cat[K[K[Kcat test
+This is a test file.
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cat > test
+bash: test: Permission denied
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cat >> test
+bash: test: Permission denied
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls -l c[Ktest
+-r--r--r-- 1 chris chris 21 Apr  8 20:07 test
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ chmod 666
+chmod: missing operand after ‚Äò666‚Äô
+Try 'chmod --help' for more information.
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ chmod 666 test
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ ls -l
+total 232
+-rw-r--r-- 1 chris chris   54 Apr  9 20:06 animals
+-rw-rw-r-- 1 chris chris  168 Apr  9 10:36 bash_toolkit
+-rw-r--r-- 1 chris chris  121 Apr  9 19:42 jazzy
+-rw-r--r-- 1 chris chris    0 Apr  8 20:16 music
+drwxr-xr-x 2 chris chris 4096 Apr  9 19:17 [0m[01;34mnew[0m
+-rw-r--r-- 1 chris chris  108 Apr 10 15:31 players
+-rw-r--r-- 1 chris chris   23 Apr  8 20:07 random
+-rw-r--r-- 1 chris chris    7 Apr 10 15:11 README.md
+-rw-r--r-- 1 chris chris   44 Apr  8 20:08 sample
+-rw-r--r-- 1 chris chris   68 Apr  9 20:07 sports
+-rw-rw-rw- 1 chris chris   21 Apr  8 20:07 test
+-rw-r--r-- 1 chris chris 1332 Apr  8 20:09 typescript
+-rw-r--r-- 1 chris chris 2267 Apr  9 19:30 typescriptChmod
+-rw-r--r-- 1 chris chris 3985 Apr  8 20:27 typescriptCopyFiles
+-rw-r--r-- 1 chris chris 1364 Apr 10 15:35 typescriptCut
+-rw-r--r-- 1 chris chris    0 Apr 10 15:55 typescriptDD
+-rw-r--r-- 1 chris chris 3962 Apr  8 20:14 typescriptDeleteFiles
+-rw-r--r-- 1 chris chris 1073 Apr  9 19:22 typescriptFilePerm
+-rw-r--r-- 1 chris chris 3801 Apr  8 20:36 typescriptLS
+-rw-r--r-- 1 chris chris    0 Apr  9 20:05 typescriptSort
+-rw-r--r-- 1 chris chris 2369 Apr  9 19:45 typescriptWC
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ clear
+[3J[H[2J]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cat > test
+This is an ascii file.
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cat test
+This is an ascii file.
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ dd if=test of-[K-[K=out  [Kconv=ucase
+0+1 records in
+0+1 records out
+23 bytes copied, 0.000271752 s, 84.6 kB/s
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cat out
+THIS IS AN ASCII FILE.
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cat ts[Kest 
+This is an ascii file.
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ dd if-[K-[K=test of-[K=out1[K2 conv-[K=ebcdic
+0+1 records in
+0+1 records out
+23 bytes copied, 0.000172953 s, 133 kB/s
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cat out2
+„àâ¢@â¢@Åï@Å¢Éââ@ÜâìÖK%]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ file
+Usage: file [-bcEhikLlNnprsvzZ0] [--apple] [--extension] [--mime-encoding] [--mime-type]
+            [-e testname] [-F separator] [-f namefile] [-m magicfiles] file ...
+       file -C [-m magicfiles]
+       file [--help]
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ file *
+animals:               ASCII text
+bash_toolkit:          ASCII text
+jazzy:                 ASCII text
+music:                 empty
+new:                   directory
+out:                   ASCII text
+out2:                  Non-ISO extended-ASCII text, with NEL line terminators
+players:               ASCII text
+random:                ASCII text
+README.md:             ASCII text
+sample:                ASCII text
+sports:                ASCII text
+test:                  ASCII text
+typescript:            ASCII text, with CRLF, LF line terminators, with escape sequences, with overstriking
+typescriptChmod:       ASCII text, with CRLF, LF line terminators, with escape sequences, with overstriking
+typescriptCopyFiles:   ASCII text, with CRLF, LF line terminators, with escape sequences, with overstriking
+typescriptCut:         ASCII text, with CRLF, LF line terminators, with escape sequences, with overstriking
+typescriptDD:          Non-ISO extended-ASCII text, with CRLF, LF, NEL line terminators, with escape sequences, with overstriking
+typescriptDeleteFiles: ASCII text, with CRLF, LF line terminators, with escape sequences, with overstriking
+typescriptFilePerm:    ASCII text, with CRLF, LF line terminators, with escape sequences, with overstriking
+typescriptLS:          ASCII text, with CRLF, LF line terminators, with escape sequences, with overstriking
+typescriptSort:        empty
+typescriptWC:          ASCII text, with CRLF, LF line terminators, with escape sequences, with overstriking
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ exit
+exit
+
+Script done on 2019-04-10 16:03:03-0400

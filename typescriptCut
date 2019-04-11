@@ -1,0 +1,33 @@
+Script started on 2019-04-10 15:29:25-0400
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cat > players
+Name-Sport-Age
+o Roge Tennis         r-te  Tennis-30
+Rafael-Tennis-25
+Tiger-Golf0 -37
+Michael-swi   Swimming-27K 
+Roge    Kebe   obe Bryant  -Basked tball-34^[[A     4^[[A    
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cat players 
+Name-Sport-Age
+Roger-Tennis-30
+Rafael-Tennis-25
+Tiger-Golf-37
+Michael-Swimming-27
+Kobe Bryant-Basketball-34
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cut -d"-" -f 1,3 players
+Name-Age
+Roger-30
+Rafael-25
+Tiger-37
+Michael-27
+Kobe Bryant-34
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ cut -d"-" -f 1,3 players[1Pplayers[1Pplayers[1Pplayers[1Pplayers2players players
+Sport
+Tennis
+Tennis
+Golf
+Swimming
+Basketball
+]0;chris@chris-Lenovo-G50-70: ~/Documents/bash[01;32mchris@chris-Lenovo-G50-70[00m:[01;34m~/Documents/bash[00m$ exit
+exit
+
+Script done on 2019-04-10 15:35:32-0400
